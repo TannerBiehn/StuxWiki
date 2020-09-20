@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ccc;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>The Stuxnet Wiki</h2>
+</header>
+
+<section>
+  <nav>
+    <h2>Contents</h2>
+    <ul>
+      <li>Introduction</li>
+      <li>Possible Origin</li>
+      <li>Operation</li>
+      <li>Technical Legacy</li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Introduction</h1>
+    <p>Stuxnet is a computer worm that spreads itself via USB memory sticks. It was used against an Iranian nuclear enrichment facility with moderate success. It is the first known use of computer malware against a nation perpetrated by another nation. In short it is a weapon of war and the first of its kind.</p>
+    <br>
+    <h1>Possible Origin</h1>
+    <p>Many experts and security firms have linked Stuxnet’s development to a joint Israeli-US effort to undermine Iran’s nuclear abilities. Within the code of the malware, researchers have been able to uncover signatures that would indicate it was developed by these two nations.</p>
+    <br>
+    <h1>Operation</h1>
+    <p>The virus used, at that time, four undiscovered zero-day vulnerabilities. Zero-day vulnerabilities are exploitable bits of code that the developer of that software, say Microsoft, is not aware of. This means that they can be used with extreme effectiveness because there is no counter measure. Stuxnet would infect the PLC controllers on the centrifuges causing them to spin slightly off center. This internal gyration would eventually destroy them, slowing the Iranian’s effort. Moreover, the malware would also display normal data to the operators, showing no signs of fault.</p>
+    <br>
+    <h1>Technical Legacy</h1>
+    <p>Stuxnet went on to infect not only the Iranian nuclear plants but also critical companies involved with the manufacturing of their nuclear systems. Again, this occurred because engineers would store data on USB sticks and move them between computer systems. Overtime Stuxnet ended up on the internet and the code would eventually be forked into cyber crime applications. It was this mistake and the act of war that caused the ethical dilemma surrounding Stuxnet.</p>
+
+
+  </article>
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
